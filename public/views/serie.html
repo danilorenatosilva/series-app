@@ -1,0 +1,19 @@
+<div>
+	<div class="row">
+		<div class="col-md-10">Título: {{serie.titulo}}</div>
+		<div class="col-md-2">
+			<a href="#/home">
+				<button class=" btn btn-primary">Séries</button>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">Gênero: {{serie.genero}}</div>
+	</div>
+	
+	<youtube ng-show="serie.trailerURL && serie.trailerURL != ''" src="serie.trailerURL"></youtube>
+	
+	<div style="margin-top:15px;">
+		
+	</div>
+</div>

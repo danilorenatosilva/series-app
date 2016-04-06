@@ -1,0 +1,16 @@
+<form ng-submit="adicionaSerie()" style="margin-top:30px;">
+	<h3>Adiciona nova série</h3>
+	<div class="form-group">
+		<input type="text" class="form-control" placeholder="Titulo" ng-model="titulo" required />
+	</div>
+	<div class="form-group">
+		<input type="text" class="form-control" placeholder="Gênero" ng-model="genero" />
+	</div>
+	<div class="form-group">
+		<input type="text" class="form-control" placeholder="URL Trailer" ng-model="trailerURL" />
+	</div>
+	<button type="submit" class="btn btn-primary">Adiciona</button>
+	<a href="#/home">
+		<button class=" btn btn-warning">Cancela</button>
+	</a>
+</form>

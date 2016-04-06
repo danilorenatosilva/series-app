@@ -1,0 +1,16 @@
+<form ng-submit="atualizaSerie()" style="margin-top:30px;">
+	<h3>Atualiza série</h3>
+	<div class="form-group">
+		<input type="text" class="form-control" name="titulo" ng-model="serie.titulo" />
+	</div>
+	<div class="form-group">
+		<input type="text" class="form-control" name="genero" ng-model="serie.genero" />
+	</div>
+	<div class="form-group">
+		<input type="text" class="form-control" name="trailerURL" ng-model="serie.trailerURL" />
+	</div>
+	<button type="submit" class="btn btn-primary">Atualiza</button>
+	<a href="#/home">
+		<button class=" btn btn-warning">Cancela</button>
+	</a>
+</form>

@@ -1,0 +1,27 @@
+<table class="table">
+	<tbody>
+		<tr ng-repeat="serie in series">
+			<td>
+				<a href="#/series/{{serie._id}}">
+					<span style="font-size:25px;">{{serie.titulo}}</span>
+				</a>
+			</td>
+			<td>
+				<a class="btn btn-danger" href="#/delete/{{serie._id}}">				  
+				  Apagar
+				</a>
+			</td>
+			<td>
+				<a class="btn btn-warning" href="#/update/{{serie._id}}">
+				  Atualizar
+				</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="margin-top:10px;">
+	<a href="#/adiciona">
+		<button class="btn btn-primary">Adicionar Série</button>
+	</a>
+</div>		
